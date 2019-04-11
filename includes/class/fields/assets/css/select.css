@@ -1,0 +1,10 @@
+.iwjmb-select {
+	min-width: 221px;
+}
+.iwjmb-select option {
+    padding: .5rem 1rem;
+}
+.iwjmb-select-all-none {
+	display: block;
+	margin-top: 5px;
+}

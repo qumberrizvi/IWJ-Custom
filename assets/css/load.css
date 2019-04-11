@@ -1,0 +1,40 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.iwj-count {
+    float: right;
+}
+
+.iwj-filter-selected {
+    clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.iwj-filter-selected ul {
+    clear: both;
+}
+
+.iwj-filter-selected-item label {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.iwj-filter-selected-item a {
+    margin-left: 10px ;
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+}
+
+.iwj-clear-filter-btn {
+    clear: both;
+}

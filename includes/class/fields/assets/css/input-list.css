@@ -1,0 +1,20 @@
+.iwjmb-input-list li{
+	line-height: 22px;
+}
+
+.iwjmb-input-list.inline li{
+	display:inline-block;
+	margin-right: 0;
+  line-height:1;
+}
+.iwjmb-input-list.inline li label {
+	margin-right: 10px;
+}
+
+.iwjmb-input-list.inline {
+    margin:0;
+}
+
+li .iwjmb-input-list {
+	margin-left: 15px;
+}

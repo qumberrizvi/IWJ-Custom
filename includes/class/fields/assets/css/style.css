@@ -1,0 +1,204 @@
+/* Clearfix for field */
+div.iwjmb-field:before,
+div.iwjmb-field:after {
+    content: " ";
+    display: table;
+}
+div.iwjmb-field:after {
+    clear: both;
+}
+div.iwjmb-field {
+    *zoom: 1;
+
+    margin: 0 0 15px;
+}
+
+.iwjmb-textarea {
+    resize: vertical;
+}
+/* Clone */
+.iwjmb-clone {
+    min-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    clear: both;
+    background: #fff;
+}
+.iwjmb-clone > input[type='radio'],
+.iwjmb-clone > input[type='checkbox'] {
+    margin: 6px 0 0 4px;
+}
+.iwjmb-button.remove-clone {
+    text-decoration: none;
+    color: #fff;
+    background: #c00;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+}
+.iwjmb-button.remove-clone i:before {
+    line-height: inherit;
+}
+.remove-clone:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.iwjmb-clone-placeholder {
+    background: #fcf8e3;
+    border: 1px solid #faebcc;
+    display: block;
+}
+.iwjmb-sort-clone {
+    position: relative;
+    padding: 15px 100px 15px 0;
+    margin: 0 -10px;
+    display: table;
+    width: 100%;
+}
+.iwjmb-sort-clone:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 1px;
+    background: #eeeeee;
+}
+.iwj-form-2 .iwjmb-sort-clone div.iwjmb-field{
+     width: 33.33%;
+ }
+.iwj-form-2 .skills-area .iwjmb-sort-clone div.iwjmb-field, .iwj-form-2 .honors-awards-area .iwjmb-sort-clone div.iwjmb-field{
+    width: 50%;
+}
+.iwjmb-sort-clone div.iwjmb-field {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+.iwjmb-sort-clone a.iwjmb-button, .iwjmb-sort-clone a.iwjmb-clone-icon {
+    display: block;
+    position: absolute;
+    top: 26px;
+}
+.iwjmb-sort-clone a.iwjmb-clone-icon {
+    cursor: move;
+    background: url(../img/drag_icon.gif) no-repeat;
+    height: 23px;
+    width: 11px;
+    vertical-align: top;
+    right: 0;
+}
+.iwjmb-sort-clone a.remove-clone {
+    right: 40px;
+}
+.iwjmb-input .iwjmb-button.add-clone {
+    display: inline-block;
+    background: #f5f5f5;
+    padding: 5px 20px;
+    border: 1px #eeeeee solid;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 25px;
+    height: auto;
+    box-shadow: none;
+    text-shadow: none;
+}
+.iwjmb-input .iwjmb-button.add-clone:hover {
+    color: #ffffff;
+    background: #2980b9;
+}
+
+/* jQuery validation */
+label.error {
+    padding-left: 3px;
+    color: red;
+}
+input.error,
+textarea.error,
+select.error {
+    border-color: #c00 !important;
+    background: #ffebe8 !important;
+}
+
+
+/* =Styles for 'side' meta boxes
+-------------------------------------------------------------- */
+
+#side-sortables .iwjmb-label,
+#side-sortables .iwjmb-input {
+    width: 100%;
+}
+
+
+/*INPUT LIST*/
+.iwjmb-input-list li{
+    line-height: 22px;
+}
+
+.iwjmb-input-list.inline li{
+    display:inline-block;
+    margin-right: 0;
+    line-height:1;
+}
+.iwjmb-input-list.inline li label {
+    margin-right: 10px;
+}
+
+.iwjmb-input-list.inline {
+    margin:0;
+}
+
+li .iwjmb-input-list {
+    margin-left: 15px;
+}
+
+/*CHECKBOX*/
+.iwjmb-checkbox-wrapper .description {
+    display: inline;
+    font-style: normal;
+}
+.iwjmb-number{
+    min-width: 221px;
+}/*
+body .select2-results__option {
+    margin-bottom: 0;
+}*/
+
+@media (max-width: 1199px) {
+    .iwjmb-sort-clone {
+        padding: 15px 70px 15px 0;
+    }
+    .iwjmb-sort-clone a.remove-clone {
+        right: 30px;
+    }
+}
+@media (max-width: 991px) {
+    .iwjmb-sort-clone div.iwjmb-field,
+    .iwj-form-2 .iwjmb-sort-clone div.iwjmb-field {
+        width: 100%;
+    }
+    .iwj-form-2 .iwjmb-sort-clone div.iwjmb-field,
+    .iwj-form-2 .skills-area .iwjmb-sort-clone div.iwjmb-field,
+    .iwj-form-2 .honors-awards-area .iwjmb-sort-clone div.iwjmb-field {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .iwjmb-sort-clone {
+        padding: 15px 20px 15px 0;
+    }
+    .iwjmb-sort-clone a.iwjmb-clone-icon {
+        right: 5px;
+    }
+    .iwj-form-2 .iwjmb-sort-clone a.iwjmb-button {
+        right: 0;
+        -webkit-transform: translateY(24px);
+        transform: translateY(24px);
+    }
+}

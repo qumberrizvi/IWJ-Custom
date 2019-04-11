@@ -1,0 +1,38 @@
+.iwj-application-linkedin-form .user-profile-header img{
+    float: left;
+    margin-right: 20px;
+}
+.iwj-application-linkedin-form .user-profile-header h4{
+    font-size: 22px;
+    margin: 0;
+    font-weight: 600;
+}
+.iwj-application-linkedin-form .user-profile-body{
+  /*  max-height: 300px;
+    overflow-y: scroll;*/
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.iwj-application-linkedin-form .user-profile-div > h4{
+    font-weight: 600;
+    margin-top: 15px;
+}
+.iwj-application-linkedin-form .user-profile-div:first-child > h4{
+    margin-top: 0;
+}
+.iwj-application-linkedin-form .user-profile-div h5{
+    margin-bottom: 0;
+}
+.iwj-application-linkedin-form .user-profile-div .skill-item, .iwj-application-linkedin-form .user-profile-div .language-item{
+    margin-right: 5px;
+}
+.iwj-application-linkedin-form .user-profile-div .skill-item:after, .iwj-application-linkedin-form .user-profile-div .language-item:after{
+    content: ',';
+}
+.iwj-application-linkedin-form .user-profile-div .skill-item:last-child:after, .iwj-application-linkedin-form .user-profile-div .language-item:last-child:after{
+    content: '';
+}
+
+.iwj-application-linkedin-form .iwj-thankyou-page .thankyou-panel>h3{
+    margin-bottom: 15px;
+}

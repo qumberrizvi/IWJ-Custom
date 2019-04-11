@@ -1,0 +1,7 @@
+.iwjmb-select-tree {
+	display: inline-block;
+}
+
+.iwjmb-select-tree.hidden {
+	display: none;
+}

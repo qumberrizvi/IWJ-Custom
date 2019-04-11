@@ -1,0 +1,111 @@
+
+.iwj-select-cv-wrap input[type="text"]{
+    width: 60%;
+    max-width: 350px;
+    margin-bottom: 5px;
+}
+.iwj-select-cv-wrap a {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+.rtl .iwj-select-cv-wrap a {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.iwj-select-cv-wrap a.iwj-select-cv{
+    background: #2f3f46;
+    padding: 7px 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.iwj-select-cv-wrap a.iwj-remove-cv{
+    background: #d54e21;
+    padding: 7px 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.iwj-cv-area input[type="radio"]{
+    width: auto !important;
+    height: inherit !important;
+    line-height: inherit !important;
+}
+.iwj-cv-area input[type="file"]{
+    display: none;
+}
+.iwj-cv-area .current-cv{
+    padding: 13px 15px;
+    background: #f6f7f9;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.iwj-cv-area .current-cv .cv_uploaded{
+    text-transform: none;
+    color: #999;
+    margin-left: 5px;
+}
+.iwj-cv-area .add-new-cv{
+    padding: 10px 17px;
+    background: #f6f7f9;
+}
+.iwj-cv-area p{
+    padding-left: 25px;
+    font-weight: normal;
+    margin-top: -4px;
+    color: #999;
+}
+.iwj-cv-area label{
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.iwj-cv-area input[type="radio"]{
+    display: none;
+}
+.iwj-cv-area .custom-radio{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #eee;
+    border-radius: 50%;
+    left: 0;
+    top: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.iwj-cv-area .custom-radio:before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    left: 3px;
+    top: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+.iwj-cv-area input[type="radio"]:checked + .custom-radio:before{
+    border: 2px solid #fff;
+    background: #2980b9;
+    width: 14px;
+    height: 14px;
+    left: 2px;
+    top: 2px;
+}
+.iwj-cv-area input[type="radio"]:checked + .custom-radio{
+    background: #2980b9;;
+}
+@media (max-width: 360px) {
+    .iwj-select-cv-wrap a {
+        display: block;
+        margin-right: 0 !important;
+    }
+}

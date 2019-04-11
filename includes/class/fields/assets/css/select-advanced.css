@@ -1,0 +1,8 @@
+.iwjmb-field .select2-container {
+	height: auto;
+	min-width: 221px;
+}
+#wpbody .iwjmb-select-all {
+	display: block;
+	margin-top: 5px;
+}
